@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b1020" />
+  <meta name="description" content="Srinadh Challa — AI Engineer focused on Generative AI, RAG, NLP and Microsoft Azure." />
+  <meta property="og:title" content="Srinadh Challa | AI Engineer" />
+  <meta property="og:description" content="Building practical AI systems with Generative AI, RAG, NLP and data." />
+  <meta property="og:type" content="website" />
+  <title>Srinadh Challa | AI Engineer</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Srinadh Challa home"><span class="brand-mark">SC</span><span>SRINADH<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a>
+      <a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span><span id="availability"></span></div>
+        <p class="hero-kicker">HELLO, I'M</p>
+        <h1 id="hero-name">Srinadh Challa<span class="accent">.</span></h1>
+        <h2 id="hero-title">AI Engineer <span class="muted">| Generative AI · RAG · Data & AI</span></h2>
+        <p class="hero-summary" id="hero-summary"></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button button-quiet" id="resume-link" href="assets/Srinadh-Challa-Resume.pdf" target="_blank" rel="noopener">View resume <span>↓</span></a>
+        </div>
+        <div class="social-links" id="social-links"></div>
+      </div>
+      <div class="hero-visual" aria-label="AI engineering illustration">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core-card"><div class="core-top"><span class="pulse"></span> SYSTEMS / THINKING</div><div class="core-symbol">⌘</div><div class="core-label">Ideas → Intelligence</div><div class="core-sub">Building useful AI, one layer at a time.</div></div>
+        <span class="float-chip chip-one">LLMs <b>✳</b></span><span class="float-chip chip-two">RAG <b>↗</b></span><span class="float-chip chip-three">PYTHON <b>⌁</b></span>
+        <div class="visual-caption">CURIOUS BY DEFAULT. BUILT TO SHIP.</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / THE PERSON BEHIND THE CODE</p><h2>About <span class="accent">me.</span></h2></div>
+      <div class="about-grid"><p class="about-lead" id="about-lead"></p><div class="about-detail"><p id="about-detail"></p><div class="stat-row" id="stats"></div></div></div>
+    </section>
+
+    <section class="section-wrap section-block" id="experience">
+      <div class="section-heading"><p class="eyebrow">02 / WHERE I'VE BEEN BUILDING</p><h2>Experience<span class="accent">.</span></h2></div>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <section class="section-wrap section-block" id="projects">
+      <div class="section-heading section-heading-row"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects that <span class="accent">solve.</span></h2></div><p class="section-note">A selection of AI and data applications I've worked on.</p></div>
+      <div class="project-grid" id="project-list"></div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">04 / MY TOOLKIT</p><h2>Skills & <span class="accent">technologies.</span></h2></div>
+      <div class="skills-grid" id="skills-list"></div>
+    </section>
+
+    <section class="section-wrap section-block" id="education">
+      <div class="section-heading"><p class="eyebrow">05 / THE FOUNDATION</p><h2>Education & <span class="accent">recognition.</span></h2></div>
+      <div class="education-grid"><div class="education-card" id="education-card"></div><div class="recognition-card"><p class="eyebrow">HIGHLIGHTS</p><div id="achievement-list"></div></div></div>
+      <div class="leadership-strip" id="leadership-list"></div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <p class="eyebrow">06 / HAVE A GOOD PROBLEM TO SOLVE?</p>
+      <h2>Let's build something <span class="accent">meaningful.</span></h2>
+      <p>Open to conversations around AI engineering, Generative AI, RAG and data-driven products.</p>
+      <a class="button button-primary contact-button" id="email-link" href="#">Get in touch <span>↗</span></a>
+      <div class="contact-meta" id="contact-meta"></div>
+    </section>
+  </main>
+  <footer class="footer"><span>© <span id="year"></span> Srinadh Challa</span><span>Designed with intent. Built for the web.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="content.js"></script><script src="script.js"></script>
+</body>
+</html>
